@@ -1,0 +1,49 @@
+body {
+  	font-family: Arial, sans-serif;
+  background-image: url('paw.jpg');
+
+}
+
+header {
+color: #fff;
+	padding: 10px;
+	text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+
+}
+
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 90px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	margin: 10px;
+	max-width: 300px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.card h2 {
+	font-size: 1.5rem;
+	margin: 10px;
+}
+
+.card p {
+	font-size: 1.2rem;
+	margin: 10px;
+}
